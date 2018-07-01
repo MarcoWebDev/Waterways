@@ -15,7 +15,6 @@ body.en-page {
 
 body.ar-page{
 	font-family: 'Jomhuria', cursive;
-	font-size: 2.5em;
 }
 
 #backdrop {
@@ -50,9 +49,13 @@ body.ar-page{
 	font-weight: bold;
 	font-size: 1.5em;
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 	padding-top: 8px;
 	border-radius: 2.9px;
+}
+
+#ar span {
+	vertical-align: middle;
 }
 
 #ar:hover {
@@ -83,7 +86,6 @@ p#moto {
 div#menu-items.collapse.navbar-collapse {
 	font-family: 'Jomhuria', cursive;
 	clear: both;
-	float: center;
 	position: absolute;
 	bottom: 0px;
 	left:0px;
@@ -107,7 +109,7 @@ div#menu-items.collapse.navbar-collapse li {
 
 div#menu-items.collapse.navbar-collapse li a {
     color: black;
-    font-size: 1.5em;
+    font-size: 2.5em;
 	font-weight:bold;
 	text-align: center;
 }
@@ -121,11 +123,13 @@ div#menu-items.collapse.navbar-collapse li a:hover, div#menu-items.collapse.navb
 div.row.content {
 	background-color: rgba(255,255,255,0.4);
 	margin-bottom: 30px;
+	font-family: 'Jomhuria', cursive;
+	font-size:42px;
 }
 
 div#txt-welcome.heading, div#txt-weoffer.heading {
 	text-align: center;
-	font-size :42px;
+	font-size :46px;
 	color:#003f7d;
 	font-weight: bold;
 	padding-top: 5px;
@@ -137,7 +141,7 @@ div#txt-weoffer.heading {
 
 div#txt-findus.heading {
 	text-align: right;
-	font-size :42px;
+	font-size :46px;
 	color:#003f7d;
 	font-weight: bold;
 	padding-top: 5px;
@@ -211,11 +215,60 @@ a.thumbnail div span {
 	text-align:center;
 	vertical-align: middle;
 	background-color: rgba(50,50,50,0.7);
-	font-size: 1.5em;
+	font-size: .8em;
 	color: black;
 	border-radius: 2.5px;
 }
 
+div.tile-pic {
+	float: right;
+	width: 250px;
+	height:150px;
+}
+
+div.tile-content {
+	float: right;
+	margin-top: 0px;
+	padding-right: 15px;
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+}
+
+h2.tile-title {
+	font-family:  'Jomhuria', cursive;
+	color: #003f7d;
+	margin-top: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: right;
+}
+
+div#customs.tile-pic {
+	background:url('/images/customs.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#seafr.tile-pic {
+	background:url('/images/sea.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#landfr.tile-pic {
+	background:url('/images/land.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#airfr.tile-pic {
+	background:url('/images/air.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#doortodoor.tile-pic {
+	background:url('/images/door to door.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
 
 footer.panel-footer{
 	background-color: rgba(20,176,209,0.7);

@@ -121,6 +121,10 @@ div.row.content {
 	margin-bottom: 30px;
 }
 
+div.heading{
+	padding-bottom: 20px;
+}
+
 div#txt-welcome.heading, div#txt-weoffer.heading {
 	text-align: center;
 	font-size :32px;
@@ -214,7 +218,49 @@ a.thumbnail div span {
 	border-radius: 2.5px;
 }
 
+div.tile-pic {
+	float: left;
+	width: 250px;
+	height:150px;
+}
 
+div.tile-content {
+	margin-top: 0px;
+	padding-left: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+h2.tile-title {
+	color: #003f7d;
+	margin-top: 0px;
+}
+
+div#customs.tile-pic {
+	background:url('/images/customs.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#seafr.tile-pic {
+	background:url('/images/sea.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#landfr.tile-pic {
+	background:url('/images/land.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#airfr.tile-pic {
+	background:url('/images/air.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
+
+div#doortodoor.tile-pic {
+	background:url('/images/door to door.jpg') no-repeat center;
+	background-size: 250px 150px;
+}
 
 footer.panel-footer{
 	background-color: rgba(20,176,209,0.7);
