@@ -10,23 +10,23 @@ body {
 }
 
 body.en-page {
-	font-family: 'Righteous', cursive;
+	font-family: 'Merriweather', serif;
 }
 
 body.ar-page{
-	font-family: 'Jomhuria', cursive;
+	font-family: 'Markazi Text', serif;
 }
 
 #backdrop {
  padding: 0px;
- background:url('../images/bkgnd.jpg') no-repeat center;
+ background:url('https://marcowebdev.github.io/Waterways/images/bkgnd.jpg') no-repeat center;
  background-size: cover;
  margin:0px;
  padding: 0px;
 }
 
 #logo {
-   background: url('../images/LOGO.png') no-repeat;
+   background: url('https://marcowebdev.github.io/Waterways/images/LOGO.png') no-repeat;
    width: 250px;
    height: 156px;
    margin: 10px 5px 10px 15px;
@@ -69,7 +69,7 @@ body.ar-page{
 }
 
 header {
-	font-family: 'Righteous', cursive;
+	font-family: 'Merriweather', serif;
 	background-color: rgba(255,255,255,0);
 	position: relative;
 }
@@ -84,7 +84,7 @@ p#moto {
 }
 
 div#menu-items.collapse.navbar-collapse {
-	font-family: 'Jomhuria', cursive;
+	font-family: 'Markazi Text', serif;
 	clear: both;
 	position: absolute;
 	bottom: 0px;
@@ -123,7 +123,7 @@ div#menu-items.collapse.navbar-collapse li a:hover, div#menu-items.collapse.navb
 div.row.content {
 	background-color: rgba(255,255,255,0.4);
 	margin-bottom: 30px;
-	font-family: 'Jomhuria', cursive;
+	font-family: 'Markazi Text', serif;
 	font-size:42px;
 }
 
@@ -191,20 +191,20 @@ a.thumbnail div {
 }
 
 a.thumbnail  div#sea {
-	background:url('../images/sea.jpg') no-repeat center; 
+	background:url('https://marcowebdev.github.io/Waterways/images/sea.jpg') no-repeat center; 
 	background-size: 100% 190px;
 }
 
 a.thumbnail  div#air {
-	background:url('../images/air.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/air.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 a.thumbnail  div#land {
-	background:url('../images/land.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/land.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 a.thumbnail  div#door {
-	background:url('../images/door to door.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/door to door.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 
@@ -237,7 +237,7 @@ div.tile-content {
 }
 
 h2.tile-title {
-	font-family:  'Jomhuria', cursive;
+	font-family: 'Markazi Text', serif;
 	color: #003f7d;
 	margin-top: 0px;
 	font-size: 40px;
@@ -246,27 +246,27 @@ h2.tile-title {
 }
 
 div#customs.tile-pic {
-	background:url('/images/customs.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/customs.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#seafr.tile-pic {
-	background:url('/images/sea.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/sea.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#landfr.tile-pic {
-	background:url('/images/land.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/land.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#airfr.tile-pic {
-	background:url('/images/air.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/air.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#doortodoor.tile-pic {
-	background:url('/images/door to door.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/door to door.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 

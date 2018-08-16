@@ -10,24 +10,24 @@ body {
 }
 
 body.en-page {
-	font-family: 'Righteous', cursive;
+	font-family: 'Merriweather', serif;
 }
 
 body.ar-page{
-	font-family: 'Jomhuria', cursive;
+	font-family: 'Markazi Text', serif;
 	font-size: 3em;
 }
 
 #backdrop {
  padding: 0px;
- background:url('../images/bkgnd.jpg') no-repeat center;
+ background:url('https://marcowebdev.github.io/Waterways/images/bkgnd.jpg') no-repeat center;
  background-size: cover;
  margin:0px;
  padding: 0px;
 }
 
 #logo {
-   background: url('../images/LOGO.png') no-repeat;
+   background: url('https://marcowebdev.github.io/Waterways/images/LOGO.png') no-repeat;
    width: 250px;
    height: 156px;
    margin: 10px 5px 10px 15px;
@@ -47,7 +47,7 @@ body.ar-page{
 	width:50px;
 	height:50px;
 	color: #003f7d;
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 2em;
 	text-align: center;
 	vertical-align: center;
@@ -106,7 +106,7 @@ div#menu-items.collapse.navbar-collapse li {
 div#menu-items.collapse.navbar-collapse li a {
     color: black;
     font-size: 1.5em;
-	font-weight:bold;
+	font-weight:900;
 	text-align: center;
 }
 
@@ -129,7 +129,7 @@ div#txt-welcome.heading, div#txt-weoffer.heading {
 	text-align: center;
 	font-size :32px;
 	color:#003f7d;
-	font-weight: bold;
+	font-weight: 900;
 	padding-top: 5px;
 }
 
@@ -141,7 +141,7 @@ div#txt-findus.heading {
 	text-align: left;
 	font-size :32px;
 	color:#003f7d;
-	font-weight: bold;
+	font-weight: 900;
 	padding-top: 5px;
 	padding-bottom: 20px;
 }
@@ -164,7 +164,7 @@ div.col-md-12 ,div.col-sm-12 {
 div.col-md-12 p ,div.col-sm-12 p {
 	color :#030c19;
 	font-size:20px;
-	font-weight:bold;
+	font-weight:900;
 	padding:3px;
 	}
 a.thumbnail {
@@ -189,20 +189,20 @@ a.thumbnail div {
 }
 
 a.thumbnail  div#sea {
-	background:url('../images/sea.jpg') no-repeat center; 
+	background:url('https://marcowebdev.github.io/Waterways/images/sea.jpg') no-repeat center; 
 	background-size: 100% 190px;
 }
 
 a.thumbnail  div#air {
-	background:url('../images/air.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/air.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 a.thumbnail  div#land {
-	background:url('../images/land.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/land.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 a.thumbnail  div#door {
-	background:url('../images/door to door.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/door to door.jpg') no-repeat center;
 	background-size: 100% 190px;
 }
 
@@ -228,7 +228,7 @@ div.tile-content {
 	margin-top: 0px;
 	padding-left: 15px;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 900;
 	color: black;
 }
 
@@ -238,41 +238,437 @@ h2.tile-title {
 }
 
 div#customs.tile-pic {
-	background:url('/images/customs.jpg') no-repeat center;
-	background-size: 250px 150px;
+	background:url('https://marcowebdev.github.io/Waterways/images/customs.jpg') no-repeat center;
+	background-size: cover;
+	height: 225px;
 }
 
 div#seafr.tile-pic {
-	background:url('/images/sea.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/sea.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#landfr.tile-pic {
-	background:url('/images/land.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/land.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#airfr.tile-pic {
-	background:url('/images/air.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/air.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 div#doortodoor.tile-pic {
-	background:url('/images/door to door.jpg') no-repeat center;
+	background:url('https://marcowebdev.github.io/Waterways/images/door to door.jpg') no-repeat center;
 	background-size: 250px 150px;
 }
 
 footer.panel-footer{
 	background-color: rgba(20,176,209,0.7);
-	height:100px;
 	border-color: rgba(20,176,209,0.7);
 }
 
 footer.panel-footer div {
 	background-color: rgba(20,176,209,0);
+	text-align: center;
+	font-weight: bold; 
+}
+footer.panel-footer div.row, footer.panel-footer div.row a {
+	margin-top: 20px;
+	font-size: 11px;
+	color: #b8babc;
+	position: relative;
+}
+footer.panel-footer div.footer-head {
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: white;
+}
+
+div#IATA {
+	background:url(https://marcowebdev.github.io/Waterways/images/IATA.png) no-repeat center;
+	background-size: 100px 70px;
+	height:70px;
+}
+
+
+div#copy-contact {
+	margin-top: 50px;
+}
+
+
+div#copyright {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: white;
+}
+
+div#designed-by {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div#contact-mail {
+	text-align: center;
+}
+
+#equ-con {
+	background-color: rgba(255,255,255,0.6);
+}
+
+
+.equip-collapse, .nested-collapse {
+    background-color: rgba(255,255,255,0);
+    color: #006fb4;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:3px;
+}
+
+.equip-collapse .pushed {
+    margin-left:30px; 
+}
+
+.collapse-active, .equip-collapse:hover, .nested-collapse:hover {
+    background-color: #006fb4;
+	color: #f2f4f7;
+}
+
+.collapse-section {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(255,255,255,0);
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003f7d;
+    padding-bottom: 3px;
+}
+
+.collapse-section p {
+    margin-top: 30px;
+}
+
+
+.input-group {
+	width: 100%;
+	background-color: rgba(255,255,255,0.4);
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.input-label {
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-left: 30px;
+	float: left;
+}
+
+div#pod.input-label {
+	text-align: center;
+}
+
+div.con.row {
+	margin-bottom: 20px;
+}
+
+div#contact.heading {
+	text-align: center;
+	font-size :32px;
+	color:#003f7d;
+	font-weight: 900;
+	padding-top: 5px;
+}
+
+span.req {
+	color: red;
+	font-size: .5em;
+	vertical-align: top;
+}	
+
+.radio-label {
+	padding:0px;
+}
+
+input#radio{
+	height:15px;
+	float: left;
+	width:100%;
+	padding:0px;
+}
+
+input#radio:focus{
+	box-shadow: none
+}
+
+button#btn-sub {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div#col-sub {
+	margin-right:90px;
+}
+
+div#call.heading {
+	text-align: left;
+	font-size :32px;
+	color:#003f7d;
+	font-weight: 900;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+ol {
+	color :#030c19;
+	font-size:20px;
+	font-weight:900;
+	line-height: 2.5;
+}
+
+div#containers.heading {
+	text-align: center;
+	font-size :32px;
+	color:#003f7d;
+	font-weight: 900;
+	padding-top: 5px;
+}
+
+div#calc-body {
+	background-color: #003f7d;
+	position: relative;
+	color: white;
+	padding: 10px 3px 10px 3px; 
+	margin-bottom: 0px;
+	width: 50%; 
+	text-align: center;
+}
+
+div#calc-body span {
+	margin-right: 0px;
+}
+
+div.row.cbm {
+	width:70%;
+	margin-bottom: 20px;
+}
+
+input.cbm-field {
+	color: black;
+}
+
+input.res-field {
+	color: black;
+	float :left;
+}
+
+div#calc-res {
+	background-color: #14b0d1;
+	position: relative;
+	color: white;
+	padding: 10px 3px 10px 3px; 
+	margin-bottom: 30px;
+	width: 50%; 
+	text-align: center;
+}
+
+.input-group-addon {
+	padding-right: 1px;
+	padding-left: 1px;
+	width:20%;
+	font-size: 0.8em;
+	height: 26px;
+}
+
+.contact-info {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 30px;
+}
+
+.contact-info span {
+	padding-left: 70px;
+	line-height: 3;
+}
+
+
+
+div#about-intro.heading {
+	text-align: center;
+	font-size :32px;
+	color:#003f7d;
+	font-weight: 900;
+	padding-top: 5px;
+}
+
+p#about-txt.par {
+	line-height: 2.5;
+}
+
+a.inco-link {
+	text-decoration: none;
+	color: #003f7d;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div.container-info  {
+	text-decoration: none;
+	color: #003f7d;
+}
+
+div.container-info:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.container-info p:hover {
+	background-color: white;
+}
+
+.description {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index:1024; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+div.description div {
+	background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+div#msg {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1024; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+div#msg span.close {
+	color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+span.close:hover, span.close:focus {
+	color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div#msg-txt {
+	background-color: #00FF7F;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    color: black;
+    width: 80%; /* Could be more or less, depending on screen size */
+    position: relative;
+}
+
+div.description div.modal-header  {
+	background-color: #003f7d;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	margin:0px;
+	padding:20px 20px 20px 20px;
+	width:100%;
+	border-width:0px;
+}
+
+div.description div.modal-box {
+	padding:0px;
+	margin-bottom: 0px;
+	height: auto;
+	background-color: white;
+}
+
+div.description div.modal-img  {
+	width:100%;
+	height:500px;
+	border-width:0;
+	border-color: white;
+	margin:0px 0px 0px 0px;
+	position: relative;
+
+}
+
+div.modal-img img {
+	width:80%;
+	height:350px;
+	position:absolute;
+	left:10%;
+}
+
+div.description div.modal-data {
+	margin:0px 0px 0px 0px;
+	float: left;
+	border:none;
+	width:100%;
+}
+
+div.description div.modal-split {
+	width: 50%;
+}
+
+div.row.modal-row {
+	padding:0px;
+	width:100%;
+    border:none;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+
+div.description div.modal-sub {
+	margin:2px 0px 5px 0px;
+	margin-right: 0px;
+	border:none;
+	color: #003f7d;
+	font-size: 22px;
+	font-weight: bold;
 }
 
  /* For Large devices*/
+
+
 @media (min-width: 992px) {
 	
 	
